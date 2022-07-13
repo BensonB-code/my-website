@@ -16,6 +16,12 @@ p{
     color: white;
 }
 
+h1{
+    background-image: linear-gradient(to bottom right, orange, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 h2{
     color: white
 }
@@ -36,12 +42,13 @@ body{
 }
 
 .main_content{
-    flex: 4;
+    flex: 3;
     text-align: center;
 }
 
 div{
-    border: 5px;
-    border-style: solid;
-    border-color: #42cef5;
+  padding: 10px;
+  border: 3px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to bottom, purple, gold)
 }
