@@ -5,10 +5,16 @@
 
 }
 
-img{
+.logo{
     width: 300px;
     height: 300px;
-    padding: 30px;
+    padding-bottom: 50px;
+    padding-top: 0px;
+}
+
+.logo1{
+    width: 300px;
+    height: 250px;
 
 }
 
@@ -28,27 +34,16 @@ h2{
 
 
 body{
-    background-color: black;
+    background-color: white;
 }
 
-.flex_container{
+.first-container{
+    background-color: aqua;
+}
+
+.flex-container{
     display: flex;
 }
 
-.side_content{
-    flex: 1;
-    text-align: center;
-    
-}
 
-.main_content{
-    flex: 3;
-    text-align: center;
-}
 
-div{
-  padding: 10px;
-  border: 3px solid;
-  border-image-slice: 1;
-  border-image-source: linear-gradient(to bottom, purple, gold)
-}
