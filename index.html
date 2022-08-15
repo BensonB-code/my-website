@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="typed.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,7 +25,21 @@
 
         <img class="pfp" src="images/dog.jpg" alt="">
 
+        <div id="typed-strings">
+            <p>I am a <strong>coder</strong> </p>
+            <p>I am a developer</p>
+            <p>I am the man </p>
+       </div>
+       <span id="typed"></span>
     </div>
+    
+   <script>
+        var typed = new Typed('#typed',{
+        stringsElement: '#typed-strings',
+        backSpeed: 40,
+        typeSpeed: 40
+        });
+   </script>
 
 </body>
 </html>
