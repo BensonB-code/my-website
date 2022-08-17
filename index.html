@@ -25,19 +25,22 @@
 
         <img class="pfp" src="images/dog.jpg" alt="">
 
-        <div id="typed-strings">
-            <p>I am a <strong>coder</strong> </p>
-            <p>I am a developer</p>
-            <p>I am the man </p>
-       </div>
-       <span id="typed"></span>
+        <div class="wrapper">
+            <div id="typed-strings">
+                <h2>I am a <span class="typed"></span></h2>
+           </div>
+
+        </div>
+        
+       
     </div>
     
    <script>
-        var typed = new Typed('#typed',{
-        stringsElement: '#typed-strings',
+        var typed = new Typed('.typed',{
+        strings: ["Developer", "Coder", "man"],
         backSpeed: 40,
-        typeSpeed: 40
+        typeSpeed: 40,
+        loop: true,
         });
    </script>
 

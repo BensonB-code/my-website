@@ -36,11 +36,11 @@ ul{
     margin-right: auto;
     height: 300px;
     width: 300px;
-    border-radius: 30px;
+    border-radius: 160px;
 }
 
-p{
-    color: white;
+.typed{
+    color: red;
 }
 
 h1{
@@ -50,7 +50,11 @@ h1{
 }
 
 h2{
-    color: white
+    color: darkblue
+}
+
+.wrapper{
+    margin-left: 870px;
 }
 
 
